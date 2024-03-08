@@ -1,0 +1,140 @@
+/* 
+　　　 　　／＞　　フ
+　　　 　　| 　_　 _ l
+　 　　 　／` ミ＿xノ
+　　 　 /　　　 　 |
+　　　 /　 ヽ　　 ﾉ
+　 　 │　　|　|　|
+　／￣|　　 |　|　|
+　| (￣ヽ＿_ヽ_)__)
+　＼二つ
+
+<link rel="stylesheet" href="/css/style.css">
+
+*/
+
+
+
+
+
+.title{
+  
+}
+
+
+body{ 
+  background-image: 
+    url("https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood3.jpg");
+    background-size: 100px;
+    background-repeat: repeat;
+  
+  font-family: 'space grotesk';
+  background-color: rgb(87, 61, 4);
+  color: rgb(131,148,150);
+  max-width: 1200px;
+}
+
+.header {
+  font-family: 'Tangerine', serif;
+  color: rgb(131,148,150);
+  font-size: 42px;
+  text-shadow: 4px 4px 4px #ffae004f;
+  background-color: rgba(53, 36, 1, 0.521);
+  text-align: center;
+  border-radius: 50px;
+}
+
+
+a:link {
+  color: rgb(15, 147, 199);
+}
+a:hover {
+  color: rgb(184, 40, 14);
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 50px;
+  margin: auto;
+}
+
+.articleheading {
+  padding-top: 10px;
+}
+
+.subsection2, .subsection3 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(42,161,152);
+}
+
+.image1 {
+  background-image: url("https://images.pexels.com/photos/8447892/pexels-photo-8447892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 20px;
+}
+
+.image2 {
+  background-image: url("https://images.pexels.com/photos/8447848/pexels-photo-8447848.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 20px;
+}
+
+
+.aside {
+  color: rgb(133,153,0);
+}  
+  
+
+.partnerlinks:{
+a:link{
+  color: rgb(15, 147, 199);
+}
+a:hover{
+  color: rgb(184, 40, 14);
+}
+}
+
+.footer {
+  background-color: rgb(7, 54, 66);
+}
+
+
+
+/*
+
+creates an aside:
+
+.maindiv {
+  display: flex
+}
+
+
+--base-font-color: rgb(131,148,150);
+--secondary-font-color: rgb(88,110,117);
+--emphasised-font: rgb(147,161,161);
+
+--c-background-color: rgb(0, 43, 54);
+--c-background-highlights: rgb(7, 54, 66);
+
+--c-yellow: rgb(181,137,  0);
+--c-orange: rgb(203, 75, 22);
+--c-red: rgb(220, 50, 47);
+--c-magenta: rgb(211, 54,130);
+--c-violet: rgb(108,113,196);
+--c-blue: rgb(38,139,210);
+--c-cyan: rgb(42,161,152);
+--c-green: rgb(133,153,0);
+*/
