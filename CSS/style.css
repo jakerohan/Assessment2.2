@@ -23,7 +23,7 @@
 body{ 
   background-image: 
     url("https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood3.jpg");
-    background-size: 100px;
+    background-size: 400px;
     background-repeat: repeat;
   
   font-family: 'space grotesk';
@@ -69,16 +69,6 @@ body{
   border-top-right-radius: 20px 225px;
 }
 
-.button-55:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
-}
-
-.button-55:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-}
-
-}
 
 .articleheading {
   padding-top: 10px;

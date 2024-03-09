@@ -4,7 +4,7 @@
 function ShowHome() { 
     document.getElementById("homediv").style.display = "block";
     document.getElementById("aboutmediv").style.display = "none";
-    document.getElementById("aboutmediv").style.display = "none";
+    document.getElementById("projectsdiv").style.display = "none";
     document.getElementById("contactdiv").style.display = "none";
 }
 
