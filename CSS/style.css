@@ -8,19 +8,17 @@
 　／￣|　　 |　|　|
 　| (￣ヽ＿_ヽ_)__)
 　＼二つ
-
-<link rel="stylesheet" href="/css/style.css">
-
 */
 
-
-
-
-
-.title{
-  
+:root{
+  --primary-color: rgba(167, 152, 21, 0.438); 
+  --secondary-color: rgba(175, 125, 25, 0.521);
+  --bg-color: rgb(167, 152, 21, 0.438);
+  --font-color: rgb(131,148,150);
+  --heading-color: rgb(53, 36, 1, 0.521);
+  --link-color: rgb(15, 147, 199);
+  --link-hover: rgb(184, 40, 14);
 }
-
 
 body{ 
   background-image: 
@@ -29,27 +27,20 @@ body{
     background-repeat: repeat;
   
   font-family: 'space grotesk';
-  background-color: rgb(87, 61, 4);
-  color: rgb(131,148,150);
+  background-color: var(--bg-color);
+  color: var(--font-color);
   max-width: 1200px;
+  margin: auto;
 }
 
 .header {
   font-family: 'Tangerine', serif;
-  color: rgb(131,148,150);
+  color: var(--font-color);
   font-size: 42px;
-  text-shadow: 4px 4px 4px #ffae004f;
-  background-color: rgba(53, 36, 1, 0.521);
+  text-shadow: 4px 4px 4px var(--secondary-color);
+  background-color: var(--heading-color);
   text-align: center;
   border-radius: 50px;
-}
-
-
-a:link {
-  color: rgb(15, 147, 199);
-}
-a:hover {
-  color: rgb(184, 40, 14);
 }
 
 .navlist {
@@ -62,79 +53,179 @@ a:hover {
   margin: auto;
 }
 
+.navbutton {
+  background-color:var(--heading-color);
+  border-style: solid;
+  border-width: 3px;
+  color: var(--font-color);
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 5px;
+  padding: 10px;
+  
+  border-bottom-left-radius: 20px 255px;
+  border-bottom-right-radius: 225px 30px;
+  border-top-left-radius: 255px 20px;
+  border-top-right-radius: 20px 225px;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+}
+
 .articleheading {
   padding-top: 10px;
 }
 
-.subsection2, .subsection3 {
-  border-style: solid;
-  border-width: 3px;
-  border-color: rgb(42,161,152);
-}
-
 .image1 {
-  background-image: url("https://images.pexels.com/photos/8447892/pexels-photo-8447892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("https://images.pexels.com/photos/8447892/pexels-photo-8447892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   border-radius: 20px;
 }
 
 .image2 {
-  background-image: url("https://images.pexels.com/photos/8447848/pexels-photo-8447848.jpeg"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("https://images.pexels.com/photos/8447848/pexels-photo-8447848.jpeg"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
   border-radius: 20px;
 }
+
+.image3 {
+  background-image: url("https://images.pexels.com/photos/3778334/pexels-photo-3778334.jpeg"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 20px;
+}
+
+.image4 {
+  background-image: url("https://images.pexels.com/photos/631411/pexels-photo-631411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 20px;
+}
+
+.image5 {
+  background-image: url("https://images.pexels.com/photos/162382/arts-crafts-group-wood-craft-together-162382.jpeg"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 20px;
+}
+
+.image6 {
+  background-image: url("https://images.pexels.com/photos/999283/pexels-photo-999283.jpeg"); 
+  background-color: var(--heading-color); 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  border-radius: 20px;
+}
+
+ 
+
+/* slideshow
+
+  Can't get it to work propperly on page open. 
+
+
+.mySlides {display: none}
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+*/
+
+
+.footer {
+  background-color: rgba(53, 36, 1, 0.521);
+  text-align: center;
+  border-radius: 50px;
+}
+
+
+
+
+/* removed or not needed
+
 
 
 .aside {
   color: rgb(133,153,0);
 }  
+
+.contactdetails{
+}
   
+.contacttable{
+}
+
+a:link {
+  color: var(--link-color);
+}
+a:hover {
+  color: var(--link-hover);
+}
 
 .partnerlinks:{
 a:link{
-  color: rgb(15, 147, 199);
-}
+  color: var(--link-color);
+  }
 a:hover{
-  color: rgb(184, 40, 14);
-}
-}
-
-.footer {
-  background-color: rgb(7, 54, 66);
+  color: var(--link-hover);
+  }
 }
 
-
-
-/*
-
-creates an aside:
-
-.maindiv {
-  display: flex
-}
-
-
---base-font-color: rgb(131,148,150);
---secondary-font-color: rgb(88,110,117);
---emphasised-font: rgb(147,161,161);
-
---c-background-color: rgb(0, 43, 54);
---c-background-highlights: rgb(7, 54, 66);
-
---c-yellow: rgb(181,137,  0);
---c-orange: rgb(203, 75, 22);
---c-red: rgb(220, 50, 47);
---c-magenta: rgb(211, 54,130);
---c-violet: rgb(108,113,196);
---c-blue: rgb(38,139,210);
---c-cyan: rgb(42,161,152);
---c-green: rgb(133,153,0);
 */

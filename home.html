@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/js.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Space+Grotesk" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css"> 
+
+    <title class="title">Woodworking</title>
+    
+
+    <!-- replace " root:{} " if page breaks -->
+    <style>
+      #homediv{
+        display: block;
+      }
+
+      #aboutmediv{
+        display: none;
+      }
+
+      #projectsdiv{
+        display: none;
+      }
+
+      #contactdiv{
+        display: none;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <header class="header">
+      <h1>My Woodworking Page</h1>
+    </header>
+
+    <!-- add button styling -->
+    <nav>
+      <ul class="navlist">
+
+        <li><button class="navbutton" onclick="ShowHome()">Home</button>
+        </li>
+  
+        <li><button class="navbutton" onclick="ShowAboutMe()">About Me</button>
+        </li>
+  
+        <li><button class="navbutton" onclick="ShowProjects()">Projects</button>
+        </li>
+  
+        <li><button class="navbutton" onclick="ShowContact()">Contact</button>
+        </li>
+      </ul>
+    </nav>
+
+
+
+
+    <main>
+      <!-- Home -->
+      <div class="maindiv" id="homediv">
+        <article class="article">
+
+          <div class="main1">
+            <h2 class ="articleheading">Sub Title 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+          </div>
+       
+          <div class="image1">
+          </div>
+
+          <div class="main2">
+            <h3 class ="articleheading">Sub Title 2</h3>
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+            <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+          </div>
+        
+          <div class="image2">
+          </div>
+
+        
+          <div class="main3">
+            <h3 class ="articleheading">Sub Title 3</h3>
+            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+            <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+          </div>
+      
+        </article>
+      </div>
+
+      <!-- About Me -->
+      <div class="maindiv" id="aboutmediv">
+        <article class="article">
+          <div class="main1">
+                <h2 class ="articleheading">About Me</h2>
+                <p></p>
+            </div>
+                
+            <div class="image3">
+            </div>
+
+            <div class="main2">
+                <h3 class ="articleheading">Getting Started in Woodworking</h3>
+                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+            </div>
+
+            <div class="main3">
+                <h3 class ="articleheading">What I Create</h3>
+                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+            </div>
+        
+            <div class="image4">
+            </div>
+        </article> 
+      </div>
+      
+      <!-- Projects -->
+      <div class="maindiv" id="projectsdiv">
+        <article class="article">
+          <div class="main1">
+                <h2 class ="articleheading">What I'm Working on</h2>
+                <p></p>
+            </div>
+                
+
+            
+            <!-- slideshow attempt 
+
+              my soul has been ruined trying to get this to work. need to give up in order to submit on time.
+
+            <div class="slideshow">
+
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="https://images.pexels.com/photos/161147/ank-cross-spiritual-egypt-161147.jpeg" style="width:100%">
+                <div class="text">Example Jewlery</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="https://images.pexels.com/photos/6788401/pexels-photo-6788401.jpeg" style="width:100%">
+                <div class="text">Woodworking Tools</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="https://images.pexels.com/photos/999283/pexels-photo-999283.jpeg" style="width:100%">
+                <div class="text">Woodworking Example</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="https://images.pexels.com/photos/162382/arts-crafts-group-wood-craft-together-162382.jpeg" style="width:100%">
+                <div class="text">Woodworking Example</div>
+              </div>
+
+              
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+              
+              </div>
+
+              -->
+            
+
+            <div class="main2">
+                <h3 class ="articleheading">Getting Started in Woodworking</h3>
+                <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+                <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+            </div>
+
+            <div class="image5">
+            </div>
+
+            <div class="main3">
+                <h3 class ="articleheading">What I Create</h3>
+                <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+                <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+            </div>
+
+            <div class="image6">
+            </div>
+        </article> 
+      </div>
+
+      <!-- Contact -->
+      <div class="maindiv" id="contactdiv">
+        <article class="article">
+          <div class="main1">
+                <h2 class ="articleheading">Contact Me</h2>
+                <p></p>
+            </div>
+
+            <div class="main2">
+                <h3 class ="articleheading">Send me a message:</h3>
+            </div>
+
+            <div class="main2" id="contactform">
+              <table class="contacttable">
+
+                  <tr>
+                   <td><label>Name:</label></td>
+                   <td><input id="formname" class="forminput" type="text" name="name" required></td>
+                  </tr>
+               
+                  <tr>  
+                    <td><label>Email:</label></td>
+                    <td><input id="formemail" class="forminput" type="email" name="email" required></td>
+                  </tr> 
+                
+                  <tr> 
+                    <td><label>Phone:</label></td>
+                    <td><input id="formphone" class="forminput" type="tel" name="phone"></td>
+                  </tr> 
+                
+                  <tr> 
+                    <td><label>Subject:</label></td>
+                    <td><input id="formsubject" class="forminput" type="text" name="subject"></td>
+                  </tr> 
+                
+                  <tr> 
+                    <td><label>Message:</label></td>
+                    <td><textarea id="formmessage" class="forminput" name="message" required rows="7" cols="50"></textarea></td>
+                  </tr> 
+              </table>
+
+            <button type="submit" onclick="sendMail()">Submit</button>
+            </div>
+
+            <div class="main3">
+                <h3 class ="articleheading">Phone:</h3>
+                <p>0430 170 380</p>
+                <p>Call me maybe</p>
+            </div>
+        </article> 
+      </div>
+
+    
+    </main>
+
+    <footer class="footer">
+      
+      <p>©Copyright 2024 Jake Rohan. All rights reversed.<br>
+        All images are free to use.
+      </p>
+      
+    </footer>
+
+  </body>
+</html>
